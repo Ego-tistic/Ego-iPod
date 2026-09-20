@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Pro-Pods open charging case</title>
+  <desc id="desc">A white open wireless earbud charging case on a midnight blue background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a45"/><stop offset="1" stop-color="#32105f"/></linearGradient>
+    <linearGradient id="case" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#cfd9ef"/></linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fdfefe"/><stop offset="1" stop-color="#b8c6e5"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <ellipse cx="256" cy="282" rx="175" ry="125" fill="#46dfff" opacity=".18" filter="url(#glow)"/>
+  <ellipse cx="256" cy="407" rx="150" ry="22" fill="#05091d" opacity=".65" filter="url(#shadow)"/>
+  <path d="M126 246c0-22 18-40 40-40h180c22 0 40 18 40 40v123c0 31-25 56-56 56H182c-31 0-56-25-56-56z" fill="url(#case)" stroke="#aab9dd" stroke-width="5"/>
+  <path d="M127 252c0-14 11-25 25-25h208c14 0 25 11 25 25v37c-47 25-177 43-258 0z" fill="#b9c7e4" opacity=".62"/>
+  <path d="M143 225c-2-44 7-86 38-113 42-36 125-36 165 0 30 27 34 69 23 113-61-22-165-25-226 0z" fill="url(#lid)" stroke="#aab9dd" stroke-width="5"/>
+  <path d="M164 208c-2-33 8-59 29-78 31-28 91-28 122-1 20 17 29 43 27 76-53-14-124-14-178 3z" fill="#dbe5f7"/>
+  <ellipse cx="256" cy="285" rx="105" ry="37" fill="#8d9fc5" opacity=".58"/>
+  <ellipse cx="256" cy="277" rx="99" ry="31" fill="#23335f" opacity=".78"/>
+  <g fill="url(#case)" stroke="#aab9dd" stroke-width="4">
+    <path d="M198 271c-19 6-29 24-25 43l7 31c3 13 15 21 28 18 12-3 18-15 15-27l-7-25 12-8c11-8 8-26-5-31z"/>
+    <path d="M314 271c19 6 29 24 25 43l-7 31c-3 13-15 21-28 18-12-3-18-15-15-27l7-25-12-8c-11-8-8-26 5-31z"/>
+  </g>
+  <circle cx="256" cy="358" r="7" fill="#5bdeef"/>
+  <path d="M185 365c39 13 103 16 142 0" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
+</svg>
