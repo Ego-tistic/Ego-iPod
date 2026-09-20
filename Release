@@ -7,8 +7,8 @@ Architectures: iphoneos-arm
 Components: main
 Description: Pro-Pods for iPod touch 6 on iOS 12.5.8 rootful
 MD5Sum:
- de201a590b18361918361217879fb6e2 513 Packages
- 9d1c46a02a87117c436c21d39f0f67f0 363 Packages.gz
+ 863cc3a94a2fed56ddc7afa425d2f43e 542 Packages
+ 546f503e15c9bb94f4beee616cdd9d17 381 Packages.gz
 SHA256:
- c8b2c296575abe499e21545c325bbfbf359d7aa305a2001342a54061bd45c41d 513 Packages
- 4c18804bfc22b762387a6082c24876a41c67eb068aecbd273f83c19c5da2c5d8 363 Packages.gz
+ 5b509cd25b48ee2516bd34dcbda9e2d2c66b9dea83e443127a89686fed74c39a 542 Packages
+ a996910d0ed6b603f216f4ee0088b769da86731bae59dc646e1709575d54716a 381 Packages.gz

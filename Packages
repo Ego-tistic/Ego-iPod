@@ -1,16 +1,16 @@
 Package: com.propods.tweak
 Name: Pro-Pods
-Description: AirPods Pro 3 compatibility for iOS 12.5.8 (product IDs 8231/8232 only)
+Description: Experimental Pro 3 ID mapping for iPod7,1 iOS 12.5.8; pairing fix unverified
 Maintainer: Pro-Pods contributors
 Author: Pro-Pods contributors
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.lns.pogr
 Architecture: iphoneos-arm
-Version: 1.0.0
+Version: 1.0.1~diagnostic1
 Installed-Size: 92
-Filename: debs/com.propods.tweak_1.0.0_iphoneos-arm.deb
-Size: 4294
-MD5sum: 42b88cb1f32b06439d02b8922db8ccb6
-SHA256: 57e8bfafac8e757f9216f1e3ddb06bef712b3ec24f69676a587486e1efe4d22d
+Filename: debs/com.propods.tweak_1.0.1~diagnostic1_iphoneos-arm.deb
+Size: 5052
+MD5sum: abf1d1ca00e4c76886d6b27209219bc3
+SHA256: 1b3bb8ff6b439f88cb0c170d7aa7967a555ae8527a44eec800b6e52b8bd1e2f2
 
