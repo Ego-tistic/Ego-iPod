@@ -1,0 +1,14 @@
+Origin: Pro-Pods
+Label: Pro-Pods
+Suite: stable
+Version: 1.0
+Codename: propods
+Architectures: iphoneos-arm
+Components: main
+Description: Pro-Pods for iPod touch 6 on iOS 12.5.8 rootful
+MD5Sum:
+ de201a590b18361918361217879fb6e2 513 Packages
+ 9d1c46a02a87117c436c21d39f0f67f0 363 Packages.gz
+SHA256:
+ c8b2c296575abe499e21545c325bbfbf359d7aa305a2001342a54061bd45c41d 513 Packages
+ 4c18804bfc22b762387a6082c24876a41c67eb068aecbd273f83c19c5da2c5d8 363 Packages.gz
