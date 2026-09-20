@@ -1,16 +1,16 @@
 Package: com.propods.tweak
 Name: Pro-Pods
-Description: Experimental Pro 3 ID mapping for iPod7,1 iOS 12.5.8; pairing fix unverified
+Description: Experimental Pro 3 ID mapping for iPod7,1 iOS 12.5.8; second ID path included
 Maintainer: Pro-Pods contributors
 Author: Pro-Pods contributors
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.lns.pogr
 Architecture: iphoneos-arm
-Version: 1.0.1~diagnostic1
+Version: 1.0.2~diagnostic2
 Installed-Size: 92
-Filename: debs/com.propods.tweak_1.0.1~diagnostic1_iphoneos-arm.deb
-Size: 5052
-MD5sum: abf1d1ca00e4c76886d6b27209219bc3
-SHA256: 1b3bb8ff6b439f88cb0c170d7aa7967a555ae8527a44eec800b6e52b8bd1e2f2
+Filename: debs/com.propods.tweak_1.0.2~diagnostic2_iphoneos-arm.deb
+Size: 5218
+MD5sum: 23f17c04fc6993d01f6df8137002e9bc
+SHA256: 12d24e4f122664d9e6d0a85fa8a809822f5a1ac4c924f368933545436891303b
 
