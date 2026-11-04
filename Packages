@@ -9,8 +9,25 @@ Conflicts: com.lns.pogr
 Architecture: iphoneos-arm
 Version: 1.0.2~diagnostic2
 Installed-Size: 92
-Filename: debs/com.propods.tweak_1.0.2~diagnostic2_iphoneos-arm.deb
+Filename: ./debs/com.propods.tweak_1.0.2~diagnostic2_iphoneos-arm.deb
 Size: 5218
 MD5sum: 23f17c04fc6993d01f6df8137002e9bc
 SHA256: 12d24e4f122664d9e6d0a85fa8a809822f5a1ac4c924f368933545436891303b
+SHA512: 6603b9ad0301f3ded99abe3f156906d51618ef1059fc4247458aa7b3567a8c61b0a5f5a44cb427b5a26a5bf4bf60f2b8a845e0bd932c5b4521515fbbb7a6a592
+
+Package: io.github.orbitlauncher
+Name: Mac-Launcher
+Description: Searchable app drawer and magnifying dock launcher for rootful iOS 12. Requires an Activator assignment.
+Maintainer: Mac-Launcher Contributors
+Author: Mac-Launcher Contributors
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, libactivator, firmware (>= 12.0), firmware (<< 13.0)
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 240
+Filename: ./debs/io.github.orbitlauncher_1.0.0_iphoneos-arm.deb
+Size: 42532
+MD5sum: aec23df055c6b30c88c9c38bdb252808
+SHA256: fb474a6e650b6e5c06ffa3c7002fe6e355b72a6c892cb1fdf95038fceae64f9d
+SHA512: fc933232aabbdd09c95436d032852fb803104909eb1230f2a7c95857a5daae18d85100a45a07fbbb9784b43ee0e8ed4588df5411af2552c318edc1927068fee4
 

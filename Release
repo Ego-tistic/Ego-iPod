@@ -1,14 +1,21 @@
-Origin: Pro-Pods
-Label: Pro-Pods
+Origin: Ego-iPod
+Label: Ego-iPod
 Suite: stable
+Codename: stable
 Version: 1.0
-Codename: propods
 Architectures: iphoneos-arm
 Components: main
-Description: Pro-Pods for iPod touch 6 on iOS 12.5.8 rootful
+Description: Rootful iOS 12 jailbreak packages
+Date: Wed, 04 Nov 2026 22:42:19 GMT
 MD5Sum:
- 0a1a716162d01dde3cd9eeed981f0532 543 Packages
- b5257b7b0593a0f5bb12efb694624141 383 Packages.gz
+ 5639b511d2eb89772f1360b2ff222911 1427 Packages
+ 65bd6cfae80e45b183c07679586d106e 791 Packages.gz
+ cc6cb9d1e168e20d28db2bd7a517c1e4 883 Packages.bz2
 SHA256:
- fea459e2b5ef4aa36be3543587e63dccf2ae03e80fd175853db6641cb7c5aa9d 543 Packages
- f7f12fd0285947a8e2c62c21f5dac86e17f993dd69a8faa61526ff3cd3975193 383 Packages.gz
+ 97cdde73f4e230e844092f315a59b193c2f634d1ee0e78dda4d5d326aeeec413 1427 Packages
+ 3e9364c6c55ce7df4d14493efb7070da1a61043f9495f5060c6b42499981c134 791 Packages.gz
+ b02bf0ce7e3b2f48c53b4044b989b17e19e8d26814ebef97e97d7a5fa93b4ee1 883 Packages.bz2
+SHA512:
+ f8f570739ac70074a897e566ebb1b2a89869f84d5f3c2e26b529ee8568215e1734965e04021a5dfaa1b721313ab274410b75402cdb8e56c858ad449d9b3bc59e 1427 Packages
+ 5c37d2f0d061bc080e7244b3ef4d9f17cc57f63020bf958384340496b6fb5c08fb6a996e9582f99352732c6b1e88bde88f2538c20c3efbfa2a9d1e15ba424126 791 Packages.gz
+ 33e4f38c5eba9a39e93f5965a6331f8052ff96103cc5f48ee72889f0f65f9f7a3eb8f73739f8b1fce8c3a5f6f016872d36c9c8753a9d10b56c26d49d9310c2a6 883 Packages.bz2
