@@ -1,13 +1,9 @@
-# Pro-Pods 2.0 beta — start here
+# Pro-Pods beta2 recovery update
 
-This is the rebuilt test package for your Pro 3 / Max disconnects. **It is not yet a confirmed fix.**
+The reported beta1 session shows repeated bluetoothd restarts, often approximately ten seconds apart, with no successful product mappings. Older logs contain implausible output values. The getter ABI/output interpretation requires validation; function hashes alone do not establish its correctness.
 
-1. Install Pro-Pods_2.0.0-beta1.deb over your existing Pro-Pods. PreferenceLoader and compatible MobileSubstrate injection are required. Do not run it alongside PodsGrant.
-2. **Restart the iPod, then re-jailbreak.** A respring alone will not load the new Bluetooth component. Reopen Settings after upgrading.
-3. Open **Settings → Pro-Pods → Show Runtime Status**. Leave Enabled, Pro 3, Max and Second ID Path on. Leave Old Pro Identity and Experimental Max 2 off. The default is Legacy Audio.
-4. Pair and test **one headphone set at a time** with a downloaded song. The new default uses an older AirPods identity that iOS 12 supports; it does not add iOS 26 features or guarantee ANC menus. Use the headphones' physical noise-control buttons where supported.
-5. If it still drops, **Copy Diagnostic Report** in Settings makes a report available for when you have time. No reply is needed now. A changing Bluetooth process ID means a daemon restart; the crash report is still needed to establish why.
+**Beta2 removes all Bluetooth mapping hooks. It is not a disconnect fix.** Its binary has no hook-installer references. It keeps only bounded logging and fresh-response status. No Settings switch can re-enable interception in this build.
 
-Turn Enabled off to bypass mapping live after the new version is loaded. Root recovery command: `pro-podsctl disable`. If the daemon/device is stuck, use your jailbreak's documented no-tweak mode and remove Pro-Pods, then restart/re-jailbreak. No pairing databases or firmware are modified by this package.
+Upgrade to 2.0.0~beta2 OR uninstall Pro-Pods, then **restart and re-jailbreak**. Old hooks remain loaded until that process is restarted. Turning Enabled off in beta1 alone does not uninstall hooks. Native iOS 12 headphone compatibility is not guaranteed after recovery.
 
-Build, policy and package/signature checks passed on the computer. Headphone stability and the new Settings controls require the actual iPod. This experimental beta is now available from Ego-iPod; the previous diagnostic package remains available for rollback.
+Beta1 and earlier Pro-Pods builds are withdrawn from the package index. Their archived files remain only for existing cached URLs; do not reinstall them. Mac-Launcher is unchanged. The next compatibility patch requires the matching system bluetoothd binary and a fresh crash report. Repeated restarts do not establish whether the cause is this tweak, a native daemon bug, another tweak, or an external event.
