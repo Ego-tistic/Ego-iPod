@@ -61,3 +61,32 @@ reconnect can then be compared with the existing allocator failures.
 No new Pro-Pods compatibility .deb is published from this observation. Beta2
 remains a recovery build, without Bluetooth mapping hooks. Pro-Pods declares a
 conflict with PodsGrant; installing them together is not a supported test.
+
+## Supplied settings decoded
+
+The subsequently supplied settings file is exactly three bytes: `01 00 00`.
+The shipped settings reader interprets those as:
+
+| Field | Value |
+| --- | --- |
+| Enabled | Yes |
+| Custom product-ID mappings | 0 |
+| Custom address entries | 0 |
+
+This is a complete default-enabled configuration, with no trailing records.
+It is not a corrupt or truncated custom configuration. It contains no saved
+Bluetooth pairing keys or connection history. There is no custom mapping to
+copy into Pro-Pods. Preset mappings still apply in code paths that execute;
+the zero count does not mean all identity changes are disabled.
+
+Combined with the exact package inspection, this rules out a custom entry in
+this supplied file as the explanation for the one successful session. It does
+not establish that this file was unchanged since that session. The separate
+pairing hooks and daemon restarts remain candidate differences, not confirmed
+fixes. Reconnection failure and the earlier allocator crashes remain unresolved.
+
+The next engineering task is to establish which pairing or receive-processing
+path actually changes on the iPod. Replacing the default settings or copying the
+nonmatching daemon signatures would not establish that. No new compatibility
+package is released based on these three bytes. The raw uploaded file is not
+published; this report contains only its decoded configuration.
