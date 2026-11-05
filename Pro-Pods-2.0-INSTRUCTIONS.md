@@ -10,4 +10,4 @@ This is the rebuilt test package for your Pro 3 / Max disconnects. **It is not y
 
 Turn Enabled off to bypass mapping live after the new version is loaded. Root recovery command: `pro-podsctl disable`. If the daemon/device is stuck, use your jailbreak's documented no-tweak mode and remove Pro-Pods, then restart/re-jailbreak. No pairing databases or firmware are modified by this package.
 
-Build, policy and package/signature checks passed on the computer. Headphone stability and the new Settings controls require the actual iPod. The public Ego-iPod repo's existing package has not been replaced with this untested beta.
+Build, policy and package/signature checks passed on the computer. Headphone stability and the new Settings controls require the actual iPod. This experimental beta is now available from Ego-iPod; the previous diagnostic package remains available for rollback.

@@ -20,4 +20,4 @@ Adapted from [PodsGrant](https://github.com/LNSSPsd/PodsGrant) by Ruphane, upstr
 
 ## Indexes
 
-This is a flat APT repo. Packages, Packages.gz, Packages.bz2 and Release are generated from both real debs, with package and index checksums. Origin/Label are Ego-iPod. No signing key was introduced or replaced; the existing repository was unsigned.
+This is a flat APT repo. Packages, Packages.gz, Packages.bz2 and Release are generated from all packaged debs, with package and index checksums. Origin/Label are Ego-iPod. No signing key was introduced or replaced; the existing repository was unsigned.
