@@ -1,3 +1,5 @@
+> Update: a crash report has now been supplied. See the [crash review](Pro-Pods-crash-review.md). The following records the earlier binary-only analysis.
+
 # Pro-Pods: uploaded Bluetooth daemon review
 
 November 4, 2026. This review analyzes the supplied binary without executing,
