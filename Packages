@@ -15,6 +15,23 @@ MD5sum: 23f17c04fc6993d01f6df8137002e9bc
 SHA256: 12d24e4f122664d9e6d0a85fa8a809822f5a1ac4c924f368933545436891303b
 SHA512: 6603b9ad0301f3ded99abe3f156906d51618ef1059fc4247458aa7b3567a8c61b0a5f5a44cb427b5a26a5bf4bf60f2b8a845e0bd932c5b4521515fbbb7a6a592
 
+Package: com.propods.tweak
+Name: Pro-Pods
+Description: iOS 12 legacy-audio compatibility profiles, live controls and scoped Bluetooth diagnostics
+Maintainer: Pro-Pods contributors
+Author: Pro-Pods contributors
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 12.5.8), firmware (<< 12.5.9)
+Conflicts: com.lns.pogr
+Architecture: iphoneos-arm
+Version: 2.0.0~beta1
+Installed-Size: 240
+Filename: ./debs/com.propods.tweak_2.0.0~beta1_iphoneos-arm.deb
+Size: 15860
+MD5sum: 08080d22abdd7d8d0ed6d29fa97c889b
+SHA256: 44e4ddfc0e2958171890e9109115da60cfb67f3fb8f645b2b8c983d163bed268
+SHA512: f14d0e81312c1eb136b026240f8e04b9a6bd44f60c463c6b5167d57faf785c032b899543708f0c277c97fcc967dd8738afb14b9137a9f62767877c3f9eb3430c
+
 Package: io.github.orbitlauncher
 Name: Mac-Launcher
 Description: Searchable app drawer and magnifying dock launcher for rootful iOS 12. Requires an Activator assignment.

@@ -12,9 +12,11 @@
 <p>Requires Activator, PreferenceLoader and compatible MobileSubstrate injection. Assign Home Triple Press to Mac-Launcher while unlocked; preserve needed Accessibility shortcuts by choosing another gesture.</p>
 <p>Compiled and package-checked for iOS 12; the final build's visual behavior, recent-app tracking and controls still require testing on the actual iPod/Amethyst installation. Installing or removing resprings SpringBoard.</p>
 <p><a href="debs/io.github.orbitlauncher_1.0.0_iphoneos-arm.deb">Download .deb</a> · <a href="sources/Mac-Launcher-1.0.0-source.zip">Open-source project</a> · <a href="Mac-Launcher-LICENSE">MIT license</a></p></section>
-<section id="pro-pods"><img src="logo.svg" alt="Open Pro-Pods charging case" width="96" height="96"><h2>Pro-Pods</h2>
-<p>AirPods Pro 3 product-ID compatibility tweak for an iPod touch 6th generation on iOS 12.5.8 with a rootful jailbreak.</p>
-<p>Version 1.0.2~diagnostic2 maps only Apple vendor product IDs 8231 and 8232 to 8206 through both verified iOS 12.5.8 device-ID paths. It records limited scalar diagnostics in <code>/var/tmp/pro-pods-status.log</code>; pairing compatibility remains unverified. Do not install alongside PodsGrant.</p>
-<p><a href="debs/com.propods.tweak_1.0.2~diagnostic2_iphoneos-arm.deb">Download .deb</a></p>
+<section id="pro-pods"><img src="logo.svg" alt="Open Pro-Pods charging case" width="96" height="96"><h2>Pro-Pods 2.0 beta</h2>
+<p>Version 2.0.0~beta1 · Experimental disconnect workaround for iPod touch 6 (iPod7,1), rootful iOS 12.5.8.</p>
+<p>Reworked Legacy Audio mode for AirPods Pro 3 and Lightning/USB-C AirPods Max, live Settings controls, fresh Bluetooth-process status, bounded diagnostics and recovery controls. Default mode uses an AirPods 2 identity. Max 2 remains an opt-in experiment.</p>
+<p>Build, mapping tests and package/signature checks passed. This is not yet a confirmed fix for connection drops on actual headphones. No modern iOS features or firmware updates are added. Do not install alongside PodsGrant.</p>
+<p><strong>After upgrading, restart the iPod and re-jailbreak.</strong> Respring alone does not load the new bluetoothd component. Reopen Settings → Pro-Pods, check Runtime Status and leave the default Legacy Audio configuration enabled for the first test.</p>
+<p><a href="debs/com.propods.tweak_2.0.0~beta1_iphoneos-arm.deb">Download 2.0 beta .deb</a> · <a href="Pro-Pods-2.0-INSTRUCTIONS.md">Installation and recovery</a> · <a href="debs/com.propods.tweak_1.0.2~diagnostic2_iphoneos-arm.deb">Previous diagnostic build</a></p>
 <p><small>Adapted from <a href="https://github.com/LNSSPsd/PodsGrant">PodsGrant</a> by Ruphane. <a href="LICENSE">MIT license and attribution</a>.</small></p></section>
 </body></html>
