@@ -23,11 +23,11 @@ Author: Mac-Launcher Contributors
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, libactivator, firmware (>= 12.0), firmware (<< 13.0)
 Architecture: iphoneos-arm
-Version: 1.1.1
+Version: 1.1.2
 Installed-Size: 260
-Filename: ./debs/io.github.orbitlauncher_1.1.1_iphoneos-arm.deb
-Size: 49728
-MD5sum: fdbbca00a0a1e52d45adc2bb041429e4
-SHA256: eee5368b03d0156c2d7c1ea5942b4916888d9e1d7f02e1029c3b876627be4709
-SHA512: e277c336eb1b8e3efc62cd0145612bcdab67fa3c3d6f18fd5d08d26537035f6f211983eea24a54bb68001ba313f9bb4bb7c841a31390095c63c76c5482e33362
+Filename: ./debs/io.github.orbitlauncher_1.1.2_iphoneos-arm.deb
+Size: 49754
+MD5sum: 0163bb7f7a86d66d52db5cbd7eb3eb3a
+SHA256: c79004b253239efaab26d68ffcce8d52f398bca179a8eb8ea9cede177159f49a
+SHA512: 860afa6e997bb718decd5eede378508145f7400756ddfb720346fb455410a292be1599b65696f76c304edfe11451ac2c5f6a1cb90f456d1d87641ae5a7505c7d
 
