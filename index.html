@@ -15,7 +15,7 @@
 <section id="pro-pods"><img src="logo.svg" alt="Pro-Pods charging case" width="96" height="96"><h2>Pro-Pods — Recovery Update</h2>
 <p>Version 2.0.0~beta2 removes all Bluetooth mapping hooks following a report of repeated daemon restarts. It is a recovery build, <strong>not a disconnect fix</strong>.</p>
 <p>Upgrade to beta2 or uninstall Pro-Pods, then <strong>restart and re-jailbreak</strong> to unload the earlier hooks. No preference can re-enable mapping in this build. Native headphone compatibility is not guaranteed.</p>
-<p>The supplied crash report confirms an allocator crash with beta1 loaded. A test after removing Pro-Pods and restarting is still needed. <a href="Pro-Pods-crash-review.md">Crash findings and test steps</a>.</p>
+<p>A second crash report confirms a related allocator crash without Pro-Pods loaded. Other jailbreak injection remains present; a test before re-jailbreaking is the next comparison. <a href="Pro-Pods-crash-review.md">Crash findings and test steps</a>.</p>
 <p>Uploaded-daemon analysis identified a misclassified supported-features getter in earlier builds. Beta2 already removes it; the playback disconnect remains undiagnosed. <a href="Pro-Pods-bluetoothd-review.md">Binary review and next diagnostic step</a>.</p>
 <p>Earlier Pro-Pods versions are withdrawn from the package index while hook signatures and crash evidence are investigated. Archived package files are not recommended for installation.</p>
 <p><a href="debs/com.propods.tweak_2.0.0~beta2_iphoneos-arm.deb">Download recovery update</a> · <a href="Pro-Pods-2.0-INSTRUCTIONS.md">Details and recovery</a></p>
