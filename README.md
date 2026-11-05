@@ -1,3 +1,5 @@
+Repository icon: an original silver iPod Classic illustration, served at `CydiaIcon.png` for Zebra/Cydia, with @2x/@3x variants and editable `repo-icon.svg`. Refresh sources after publication; cached icons may require restarting Zebra.
+
 # Mac-Launcher 1.1.0 update
 
 
