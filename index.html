@@ -4,21 +4,20 @@
 <link rel="icon" type="image/png" href="CydiaIcon.png">
 <style>body{font:17px/1.65 -apple-system,BlinkMacSystemFont,sans-serif;max-width:760px;margin:48px auto;padding:0 24px;color:#18212b;background:#f5f7fa}a{color:#075ac9}code{overflow-wrap:anywhere}small{color:#536170}section{background:white;padding:24px;border:1px solid #dfe5ee;border-radius:24px;margin:24px 0}img{border-radius:18px;float:right;margin-left:16px}h1,h2{line-height:1.2}</style></head>
 <body><img src="CydiaIcon.png" alt="Silver iPod Classic repo icon" width="72" height="72"><h1>Ego-iPod</h1><p>Rootful iOS 12 packages for iPod touch.</p>
-<p><a href="zbra://sources/add/https://ego-tistic.github.io/Ego-iPod/">Add to Zebra</a> Â· <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ego-tistic.github.io/Ego-iPod/">Add to Cydia</a></p>
+<p><a href="zbra://sources/add/https://ego-tistic.github.io/Ego-iPod/">Add to Zebra</a> Ã‚Â· <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ego-tistic.github.io/Ego-iPod/">Add to Cydia</a></p>
 <p>Repository address: <code>https://ego-tistic.github.io/Ego-iPod/</code></p>
 <p><small>Previously Pro-Pods. After the move, add this new address in your package manager.</small></p>
 <section id="mac-launcher"><img src="mac-launcher.png" alt="Mac-style computer icon" width="72" height="72"><h2>Mac-Launcher</h2>
-<p>Version 1.1.2 Â· Rootful arm64 iOS 12</p>
-<p><strong>Activator is a required dependency.</strong> First add <code>https://rpetri.ch/repo/</code> and refresh sources. Installing Mac-Launcher then includes Activator and its available dependencies automatically. <a href="zbra://sources/add/https://rpetri.ch/repo/">Add Activator source to Zebra</a> Â· <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rpetri.ch/repo/">Add to Cydia</a> Â· <a href="ACTIVATOR.md">Setup and upstream details</a></p>
+<p>Version 1.1.2 Ã‚Â· Rootful arm64 iOS 12</p>
+<p><strong>Activator is a required dependency.</strong> First add <code>https://rpetri.ch/repo/</code> and refresh sources. Installing Mac-Launcher then includes Activator and its available dependencies automatically. <a href="zbra://sources/add/https://rpetri.ch/repo/">Add Activator source to Zebra</a> Ã‚Â· <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rpetri.ch/repo/">Add to Cydia</a> Ã‚Â· <a href="ACTIVATOR.md">Setup and upstream details</a></p>
 <p>Searchable app drawer and magnifying dock, with a separate recent-five section. Themes: Dark, Light, and Custom Color with a color wheel and brightness control. Surface Opacity saves in 5% steps, including interrupted drags. Reduce Transparency disables blur without overriding opacity.</p>
 <p>Remaining user-facing Orbit wording is now Mac-Launcher. Saved app choices and Activator assignments are preserved. Installer repair: respring is requested after dpkg completes rather than forced during configuration. Complete installation, then use the respring button and reopen Settings.</p>
 <p>Compiled and package/signature checked for iOS 12; Preferences interaction, appearance and Amethyst runtime behavior still require testing on the actual iPod.</p>
-<p><a href="Mac-Launcher-1.1.2.md">Update details</a> Â· <a href="debs/io.github.orbitlauncher_1.1.2_iphoneos-arm.deb">Download .deb</a> Â· <a href="sources/Mac-Launcher-1.1.2-source.zip">Open-source project</a> Â· <a href="Mac-Launcher-LICENSE">MIT license</a></p></section>
-<section id="pro-pods"><h2>Pro-Pods — current version for now</h2>
-<p><strong>November 6 update:</strong> Working playback confirmed by the user on the second iPod touch 6 running iOS 12.5.8. The exact 2.0.0~beta4 binary is retained as the selected version for now. <a href="Pro-Pods-current.md">Current release and test evidence</a>. Existing diagnostic limits remain.</p>
-<p>2.0.0~beta4 is the unchanged build from the user's successful iPod touch 6 / iOS 12.5.8 playback and reconnect test. It remains a ten-minute guarded-heap diagnostic, not a proven permanent fix. Later failure followed a guard-disabled control test; causation remains unresolved.</p>
-<p><a href="Pro-Pods-beta4.md">Evidence, configuration, limits and recovery</a> · <a href="debs/com.propods.tweak_2.0.0~beta4_iphoneos-arm.deb">Download beta4</a> · <a href="sources/Pro-Pods-2.0.0-beta4-source.zip">Recovered source snapshot</a></p>
-<p>Requires Substrate, PreferenceLoader and iOS 12.5.8. Conflicts with PodsGrant. Installation does not restart Bluetooth or remove a disabled marker. Beta2 remains available for recovery; earlier withdrawn builds remain unindexed.</p>
-<p><a href="debs/com.propods.tweak_2.0.0~beta2_iphoneos-arm.deb">Beta2 recovery build</a> · <a href="Pro-Pods-2.0-INSTRUCTIONS.md">Beta2 instructions</a> · <a href="PodsGrant-0.5.4-review.md">Earlier PodsGrant review</a></p>
+<p><a href="Mac-Launcher-1.1.2.md">Update details</a> Ã‚Â· <a href="debs/io.github.orbitlauncher_1.1.2_iphoneos-arm.deb">Download .deb</a> Ã‚Â· <a href="sources/Mac-Launcher-1.1.2-source.zip">Open-source project</a> Ã‚Â· <a href="Mac-Launcher-LICENSE">MIT license</a></p></section>
+<section id="pro-pods"><h2>Pro-Pods 3.0.0</h2>
+<p>Continuous guarded BTStack heap workaround for rootful iPod touch 6 on iOS 12.5.8. Removes beta4's ten-minute cutoff while retaining the 96 MiB memory safeguard and exact device/system checks.</p>
+<p>Beta4 had user-reported playback, restart and reconnect success. Version 3 builds and passes package checks; a fresh hardware playback test is still pending. No guarantee of permanent connectivity is implied.</p>
+<p><a href="Pro-Pods-3.0.0.md">Release notes, installation and recovery</a> · <a href="debs/com.propods.tweak_3.0.0_iphoneos-arm.deb">Download version 3</a> · <a href="sources/Pro-Pods-3.0.0-source.zip">Source code</a></p>
+<p>Requires Substrate and PreferenceLoader; conflicts with PodsGrant. A fresh Bluetooth process is required after upgrading. Beta4 and beta2 remain available for rollback.</p>
 <p><small>Adapted from <a href="https://github.com/LNSSPsd/PodsGrant">PodsGrant</a> by Ruphane. <a href="LICENSE">MIT license and attribution</a>.</small></p></section>
 </body></html>

@@ -1,5 +1,22 @@
 Package: com.propods.tweak
 Name: Pro-Pods
+Description: Continuous guarded BTStack heap workaround for verified iPod touch 6 iOS 12.5.8; memory safeguard retained
+Maintainer: Pro-Pods contributors
+Author: Pro-Pods contributors
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 12.5.8), firmware (<< 12.5.9)
+Conflicts: com.lns.pogr
+Architecture: iphoneos-arm
+Version: 3.0.0
+Installed-Size: 240
+Filename: ./debs/com.propods.tweak_3.0.0_iphoneos-arm.deb
+Size: 15944
+MD5sum: 0a8fca1a424283b65678b93a01ab5b26
+SHA256: cbb5906c6b20d747db326b16e61cba6d42ced958b54f936aed61ff15a22387b1
+SHA512: 4c39f54811390c411414967b171a10c50763a4d9251e00918b64111097269a5345662895155fe42b2e8193a6b8e7fdb895b3af08ec8144fb30c150b0c5b68fa9
+
+Package: com.propods.tweak
+Name: Pro-Pods
 Description: Recovery update: removes Bluetooth mapping hooks pending crash and ABI investigation
 Maintainer: Pro-Pods contributors
 Author: Pro-Pods contributors
