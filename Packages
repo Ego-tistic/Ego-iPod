@@ -31,3 +31,20 @@ MD5sum: 0163bb7f7a86d66d52db5cbd7eb3eb3a
 SHA256: c79004b253239efaab26d68ffcce8d52f398bca179a8eb8ea9cede177159f49a
 SHA512: 860afa6e997bb718decd5eede378508145f7400756ddfb720346fb455410a292be1599b65696f76c304edfe11451ac2c5f6a1cb90f456d1d87641ae5a7505c7d
 
+Package: com.propods.tweak
+Name: Pro-Pods
+Description: Guarded BTStack heap diagnostic for one verified iOS 12 daemon; not a confirmed audio fix
+Maintainer: Pro-Pods contributors
+Author: Pro-Pods contributors
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 12.5.8), firmware (<< 12.5.9)
+Conflicts: com.lns.pogr
+Architecture: iphoneos-arm
+Version: 2.0.0~beta4
+Installed-Size: 240
+Filename: ./debs/com.propods.tweak_2.0.0~beta4_iphoneos-arm.deb
+Size: 15984
+MD5sum: 89261e084892e4be502750e5c84b2291
+SHA256: 635d4d60b60935b61750a53b8a53ef984858294fbc13c13a62fe54e7b8bcc983
+SHA512: 52b25333e51950bb57af5464fb58d37529c383a8a8f4134daf75484bfe6b7d2160baa678aef060e5338d9587ebed5c644be5c3d8d4f8d6e17b8c9f51a1de28f4
+
