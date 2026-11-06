@@ -55,4 +55,4 @@ later successful Pro-Pods beta4 trial and has not been relabeled or republished.
 
 Publication checks passed for package identity, dependency/firmware constraints,
 rootful paths, ownership/modes, XML, bluetoothd-only injection, and arm64 ad-hoc
-signature integrity. No fresh hardware playback test was performed.
+signature integrity. The initial publication performed no fresh hardware playback test. On November 6, the user confirmed playback on the second iPod; see [current release evidence](Pro-Pods-current.md).
