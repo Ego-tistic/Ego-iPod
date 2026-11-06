@@ -1,3 +1,10 @@
+# Activator installation prerequisite
+
+Mac-Launcher already requires Activator (`libactivator`) automatically. First add
+**https://rpetri.ch/repo/** in Cydia or Zebra and refresh sources; then installing
+Mac-Launcher will also install Activator and its available dependencies.
+See [Activator setup, upstream source and redistribution assessment](ACTIVATOR.md).
+
 # Mac-Launcher 1.1.2 update
 
 
