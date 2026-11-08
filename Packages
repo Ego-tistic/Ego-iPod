@@ -65,3 +65,18 @@ MD5sum: 89261e084892e4be502750e5c84b2291
 SHA256: 635d4d60b60935b61750a53b8a53ef984858294fbc13c13a62fe54e7b8bcc983
 SHA512: 52b25333e51950bb57af5464fb58d37529c383a8a8f4134daf75484bfe6b7d2160baa678aef060e5338d9587ebed5c644be5c3d8d4f8d6e17b8c9f51a1de28f4
 
+Package: com.egotistic.airpods-controls
+Name: AirPod²
+Description: AirPods Pro 3 controls for rootful iOS 12, with Adaptive Audio and Conversation Awareness.
+Maintainer: Ego-Tistic
+Section: Utilities
+Conflicts: com.egotistic.conversation-test
+Replaces: com.egotistic.conversation-test
+Architecture: iphoneos-arm
+Version: 3.0.0
+Installed-Size: 244
+Filename: ./debs/com.egotistic.airpods-controls_3.0.0_iphoneos-arm.deb
+Size: 67750
+MD5sum: cdc0e92c9779254eae06859322ca7219
+SHA256: 823e65369ee47ec010d73f84e2647bc62e2dc9e94a6d52d576d61ff5257c687d
+SHA512: 10ecd5452ac257c4897d802cf05520de54c4b3bc68a88ba4174324357589c2c8117ac4b51496bc8007750d332e9ceccbad71c43ddf9229d4f724128ef00e26d6
